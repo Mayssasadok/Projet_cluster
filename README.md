@@ -38,7 +38,12 @@ Exemple de cluster : kameans
 
 # II. Partie Pratique 
 ## 1. création d'un compte tweeterdevelopper 
+### * Création de compte 
 ![dev1](https://user-images.githubusercontent.com/47771296/102264973-ad0be380-3f16-11eb-9805-807b79305781.PNG)
+
+
+![dev2](https://user-images.githubusercontent.com/47771296/102265447-6a96d680-3f17-11eb-8b69-2fc6a20ef3cc.PNG)
+
   
   
   
