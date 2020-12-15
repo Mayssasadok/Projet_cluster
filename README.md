@@ -37,7 +37,12 @@ L'outil d'ordonnancement est un algorithme qui mesure la proximité entre chaque
 Exemple de cluster : kameans
 
 # II. Partie Pratique 
-## 1. création d'un compte tweeterdevelopper 
+## 1. Evironnement de travail : 
+ ### * Environnement logiciel :
+      
+![1200px-Jupyter_logo](https://user-images.githubusercontent.com/47771296/102266839-49cf8080-3f19-11eb-8c39-1e1136b3ba68.png)
+
+## 2. création d'un compte tweeterdevelopper 
 ### * Création de compte 
 ![dev1](https://user-images.githubusercontent.com/47771296/102264973-ad0be380-3f16-11eb-9805-807b79305781.PNG)
 
@@ -48,4 +53,4 @@ Exemple de cluster : kameans
   
   ![saugarde](https://user-images.githubusercontent.com/47771296/102266112-4c7da600-3f18-11eb-9682-a188fd5e26bf.PNG)
   
-  
+  ## 1. création d'un compte tweeterdevelopper 
