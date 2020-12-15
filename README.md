@@ -39,8 +39,14 @@ Exemple de cluster : kameans
 # II. Partie Pratique 
 ## 1. Evironnement de travail : 
  ### * Environnement logiciel :
+ Jupyter est une application web utilisée pour programmer dans plus de 40 langages de programmation, dont Python, Julia, Ruby, R, ou encore Scala2. Jupyter est une évolution du projet IPython. Jupyter permet de réaliser des calepins ou notebooks, c'est-à-dire des programmes contenant à la fois du texte en markdown et du code en Julia, Python, R... Ces calepins sont utilisés en science des données pour explorer et analyser des données.
       
 ![jup](https://user-images.githubusercontent.com/47771296/102266998-8bf8c200-3f19-11eb-9cc7-bfc34dbad880.PNG)
+ ### * Environnement matériel  :
+Ordinateur portable 
+Système d’exploitation : Windows 10 (64Bits)
+Processeur :Intel Core i5
+Mémoire Vive :4 GB
 
 ## 2. création d'un compte tweeterdevelopper 
 ### * Création de compte 
@@ -52,5 +58,4 @@ Exemple de cluster : kameans
 ### * Sauvgarde des clés
   
   ![saugarde](https://user-images.githubusercontent.com/47771296/102266112-4c7da600-3f18-11eb-9682-a188fd5e26bf.PNG)
-  
-  ## 1. création d'un compte tweeterdevelopper 
+ 
