@@ -45,7 +45,7 @@ Exemple de cluster : kameans
  ### * Environnement matériel  :
 -> Ordinateur portable 
 -> Système d’exploitation : Windows 10 (64Bits)
--> Processeur :Intel Core i5
+-> Processeur :Intel Core i3
 -> Mémoire Vive :4 GB
 
 ## 2. création d'un compte tweeterdevelopper 
@@ -58,4 +58,7 @@ Exemple de cluster : kameans
 ### * Sauvgarde des clés
   
   ![saugarde](https://user-images.githubusercontent.com/47771296/102266112-4c7da600-3f18-11eb-9682-a188fd5e26bf.PNG)
+ ##  3. Installation des bibliothéques 
  
+ 
+ ![ins1](https://user-images.githubusercontent.com/47771296/102269451-f0695080-3f1c-11eb-9cab-c4b683572f82.PNG)
