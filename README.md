@@ -70,6 +70,15 @@ La bibliothèque SpaCy permet d'effectuer les opérations d'analyse suivantes3 s
 ### * Importation des bibliothéques 
 ![les bibliothéque](https://user-images.githubusercontent.com/47771296/102272178-a71b0000-3f20-11eb-91ac-9b73cbeae76b.PNG)
 
+## 4. Authentification et Affichage des tweets 
+À partir de compte tweeter develloper qu'ona  créer, ona enregistrer les informations suivantes dans un script appelé credentials.py:
 
+Clé consommateur (clé API)
+Secret consommateur (secret API)
+Jeton d'accès
+Access Token Secret
+
+Les données seront des tweets extraits de l'utilisateur. La première chose à faire est d'obtenir la clé du consommateur, le secret du consommateur, la clé d'accès et le secret d'accès du développeur Twitter facilement disponibles pour chaque utilisateur.
+Ces clés aideront l'API pour l'authentification.
 ![api](https://user-images.githubusercontent.com/47771296/102277533-b605b080-3f28-11eb-8dc9-e5dffea6fcc7.PNG)
 
