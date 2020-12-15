@@ -25,9 +25,20 @@ le projet portera sur la classification selon plusieurs étapes .
 • Appliquer les principes de nettoyage des données
 • Classer les tweets : regrouper ensemble les tweets qui sont similaires. C’est une étape qui peut
   être considérée comme une étape 
-  ### I. Partie théorique 
+  # I. Partie théorique 
  ##  1. Tweeter
 Twitter est un réseau social populaire où les utilisateurs partagent des messages appelés tweets. Twitter nous permet d'exploiter les données de tout utilisateur en utilisant l'API Twitter ou Tweepy
+## 2. Le clustering 
+le clustering est une méthode d'analyse statistique utilisée pour organiser des données brutes en silos homogènes. 
+
+A l'intérieur de chaque grappe, les données sont regroupées selon une caractéristique commune. 
+
+L'outil d'ordonnancement est un algorithme qui mesure la proximité entre chaque élément à partir de critères définis.
+Exemple de cluster : kameans
+
+# II. Partie Pratique 
+## 1. création d'un compte tweeterdevelopper 
+![dev1](https://user-images.githubusercontent.com/47771296/102264973-ad0be380-3f16-11eb-9805-807b79305781.PNG)
   
   
   
