@@ -96,10 +96,17 @@ Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, 
 Tokenisation, lemmatisation et suppression des mots vides
 Les mots vides sont des mots couramment utilisés dont la présence dans une phrase a moins de poids que d'autres mots. Ils incluent des mots comme «et», «ou», «a» et.c.
 La tokenisation est le processus de division d'une chaîne en une liste de jetons. Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des tokenizers appropriés.
+
+![token](https://user-images.githubusercontent.com/47771296/102285332-61693200-3f36-11eb-9273-7e69ef8a64fb.PNG)
+
 La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».
 Les langues utilisées dans les tweets sont principalement l'anglais et le swahili. Ce dernier n'a aucun support donc nous ne travaillerons qu'avec le premier. Cela rend l'analyse paralysée d'une manière étant donné que les textes swahili seront ignorés.
 
 
 ###  *Suppression de ponctuation 
+
+Utilisation de la variable punctuationdu package string. Avant d'utiliser, vous devez importer le package en utilisant la ligne import stringau début du fichier.
+
+string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement . 
 ![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
 
