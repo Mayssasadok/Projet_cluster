@@ -63,3 +63,7 @@ Exemple de cluster : kameans
  Tweepy prend en charge l'accès à Twitter via l'authentification de base et la nouvelle méthode, OAuth. Twitter a cessé d'accepter l'authentification de base, donc OAuth est désormais le seul moyen d'utiliser l'API Twitter.
  
  ![ins1](https://user-images.githubusercontent.com/47771296/102269451-f0695080-3f1c-11eb-9cab-c4b683572f82.PNG)
+ ### * Spacy
+ SpaCy est une bibliothèque logicielle Python de traitement automatique des langues 
+La bibliothèque SpaCy permet d'effectuer les opérations d'analyse suivantes3 sur des textes dans plus de 50 langues
+![spacy](https://user-images.githubusercontent.com/47771296/102271021-0b3cc480-3f1f-11eb-81c0-4a5990d84813.PNG)
