@@ -43,10 +43,10 @@ Exemple de cluster : kameans
       
 ![jup](https://user-images.githubusercontent.com/47771296/102266998-8bf8c200-3f19-11eb-9cc7-bfc34dbad880.PNG)
  ### * Environnement matériel  :
-Ordinateur portable 
-Système d’exploitation : Windows 10 (64Bits)
-Processeur :Intel Core i5
-Mémoire Vive :4 GB
+-> Ordinateur portable 
+-> Système d’exploitation : Windows 10 (64Bits)
+-> Processeur :Intel Core i5
+-> Mémoire Vive :4 GB
 
 ## 2. création d'un compte tweeterdevelopper 
 ### * Création de compte 
