@@ -67,3 +67,5 @@ Exemple de cluster : kameans
  SpaCy est une bibliothèque logicielle Python de traitement automatique des langues 
 La bibliothèque SpaCy permet d'effectuer les opérations d'analyse suivantes3 sur des textes dans plus de 50 langues
 ![spacy](https://user-images.githubusercontent.com/47771296/102271021-0b3cc480-3f1f-11eb-81c0-4a5990d84813.PNG)
+### * Importation des bibliothéques 
+![les bibliothéque](https://user-images.githubusercontent.com/47771296/102272178-a71b0000-3f20-11eb-91ac-9b73cbeae76b.PNG)
