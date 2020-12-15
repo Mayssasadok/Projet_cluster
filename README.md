@@ -90,3 +90,16 @@ Ces clés aideront l'API pour l'authentification.
 ![twwt](https://user-images.githubusercontent.com/47771296/102280086-c91a7f80-3f2c-11eb-827c-e3ca08bd69c7.PNG)
 
 Les données utilisées sont extraites de Twitter à l'aide de Tweepy , une bibliothèque python permettant d'accéder à l'API Twitter.
+## 6. Nettoyage des tweets
+Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés. Tous les textes sont convertis en minuscules pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents
+
+Tokenisation, lemmatisation et suppression des mots vides
+Les mots vides sont des mots couramment utilisés dont la présence dans une phrase a moins de poids que d'autres mots. Ils incluent des mots comme «et», «ou», «a» et.c.
+La tokenisation est le processus de division d'une chaîne en une liste de jetons. Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des tokenizers appropriés.
+La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».
+Les langues utilisées dans les tweets sont principalement l'anglais et le swahili. Ce dernier n'a aucun support donc nous ne travaillerons qu'avec le premier. Cela rend l'analyse paralysée d'une manière étant donné que les textes swahili seront ignorés.
+
+
+###  *Suppression de ponctuation 
+![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
+
