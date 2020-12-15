@@ -84,3 +84,9 @@ Ces clés aideront l'API pour l'authentification.
 
 ![api](https://user-images.githubusercontent.com/47771296/102277533-b605b080-3f28-11eb-8dc9-e5dffea6fcc7.PNG)
 
+![text](https://user-images.githubusercontent.com/47771296/102278962-eea68980-3f2a-11eb-8907-727e195b80db.PNG)
+
+## 5. Stockage de 10000 tweets 
+![twwt](https://user-images.githubusercontent.com/47771296/102280086-c91a7f80-3f2c-11eb-827c-e3ca08bd69c7.PNG)
+
+
