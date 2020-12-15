@@ -59,6 +59,6 @@ Exemple de cluster : kameans
   
   ![saugarde](https://user-images.githubusercontent.com/47771296/102266112-4c7da600-3f18-11eb-9682-a188fd5e26bf.PNG)
  ##  3. Installation des bibliothéques 
- 
+ Tweepy prend en charge l'accès à Twitter via l'authentification de base et la nouvelle méthode, OAuth. Twitter a cessé d'accepter l'authentification de base, donc OAuth est désormais le seul moyen d'utiliser l'API Twitter.
  
  ![ins1](https://user-images.githubusercontent.com/47771296/102269451-f0695080-3f1c-11eb-9cab-c4b683572f82.PNG)
