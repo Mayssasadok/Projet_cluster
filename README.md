@@ -40,7 +40,7 @@ Exemple de cluster : kameans
 ## 1. Evironnement de travail : 
  ### * Environnement logiciel :
       
-![1200px-Jupyter_logo](https://user-images.githubusercontent.com/47771296/102266839-49cf8080-3f19-11eb-8c39-1e1136b3ba68.png)
+![jup](https://user-images.githubusercontent.com/47771296/102266998-8bf8c200-3f19-11eb-9cc7-bfc34dbad880.PNG)
 
 ## 2. création d'un compte tweeterdevelopper 
 ### * Création de compte 
