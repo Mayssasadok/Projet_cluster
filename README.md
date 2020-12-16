@@ -124,3 +124,6 @@ Il sont très fréquents et ralentissent notre travail : nous souhaitons donc le
 ![stopword](https://user-images.githubusercontent.com/47771296/102288568-0d158080-3f3d-11eb-81c9-8f32072b07ec.PNG)
 
 ![en](https://user-images.githubusercontent.com/47771296/102289024-ffacc600-3f3d-11eb-8898-8a1ac333b94c.PNG)
+
+### * la stemming
+La stemming est une sorte de normalisation des mots. La normalisation est une technique dans laquelle un ensemble de mots dans une phrase est converti en une séquence pour raccourcir sa recherche. Les mots qui ont le même sens mais qui présentent des variations selon le contexte ou la phrase sont normalisés.
