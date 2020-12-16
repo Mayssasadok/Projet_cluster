@@ -110,3 +110,5 @@ Utilisation de la variable punctuationdu package string. Avant d'utiliser, vous 
 string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement . 
 ![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
 
+![resu](https://user-images.githubusercontent.com/47771296/102287482-d76f9800-3f3a-11eb-8b89-ade350b73482.PNG)
+
