@@ -130,3 +130,4 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 
 
 ![nn](https://user-images.githubusercontent.com/47771296/102289408-e6584980-3f3e-11eb-98c9-891ddfc43244.PNG)
+![hh](https://user-images.githubusercontent.com/47771296/102291466-74363380-3f43-11eb-86b2-59ae0445f0fc.PNG)
