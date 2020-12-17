@@ -87,7 +87,9 @@ Ces clés aideront l'API pour l'authentification.
 ![ccc](https://user-images.githubusercontent.com/47771296/102531553-c477d780-40a2-11eb-8ca7-fc0126144fa5.PNG)
 
 ## 5. Extraction de 10000 tweets 
-![twwt](https://user-images.githubusercontent.com/47771296/102280086-c91a7f80-3f2c-11eb-827c-e3ca08bd69c7.PNG)
+
+![extra](https://user-images.githubusercontent.com/47771296/102533231-6d273680-40a5-11eb-85eb-188723f65516.PNG)
+
 
 Les données utilisées sont extraites de Twitter à l'aide de Tweepy , une bibliothèque python permettant d'accéder à l'API Twitter.
 
