@@ -90,6 +90,9 @@ Ces clés aideront l'API pour l'authentification.
 ![twwt](https://user-images.githubusercontent.com/47771296/102280086-c91a7f80-3f2c-11eb-827c-e3ca08bd69c7.PNG)
 
 Les données utilisées sont extraites de Twitter à l'aide de Tweepy , une bibliothèque python permettant d'accéder à l'API Twitter.
+
+![bbb](https://user-images.githubusercontent.com/47771296/102531000-fd637c80-40a1-11eb-968e-688a6fc7a692.PNG)
+
 ## 6. Nettoyage des tweets
 Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés. Tous les textes sont convertis en minuscules pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents
 
