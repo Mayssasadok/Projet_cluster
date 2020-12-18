@@ -182,9 +182,13 @@ Exemple :
 ![Exe](https://user-images.githubusercontent.com/47771296/102564485-d6c23780-40db-11eb-9baa-422368aaee8f.PNG)
 ### Affichage des tweets de chaque cluster : 
 ![ff](https://user-images.githubusercontent.com/47771296/102607194-2595be80-4128-11eb-9ab5-fb6c593be93e.PNG)  
- resultats :
+ #### resultats :
  
 ![kk](https://user-images.githubusercontent.com/47771296/102607324-67bf0000-4128-11eb-8fdb-9599a506fe28.PNG)
+#### Ensembles de mots
+
+Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
+![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
 
 
