@@ -168,6 +168,16 @@ fit_transform () est utilisé sur les données d'entraînement afin que nous pui
 Le clustering K-Means est un algorithme d'apprentissage automatique non supervisé. Contrairement aux algorithmes traditionnels d'apprentissage automatique supervisé, K-Means tente de classer les données sans avoir d'abord été formé avec des données étiquetées. Une fois l'algorithme exécuté et les groupes définis, toute nouvelle donnée peut être facilement affectée au groupe le plus pertinent.
 WCSS est défini comme la somme de la distance au carré entre chaque membre du cluster et son centre de gravité .
 ![kmeans](https://user-images.githubusercontent.com/47771296/102563322-45ea5c80-40d9-11eb-9a4d-30df1e5e83a2.PNG)
+![gg](https://user-images.githubusercontent.com/47771296/102563684-1f78f100-40da-11eb-9755-19a1e7636ab6.PNG)
+
+Nous représentons la relation entre le nombre de clusters et la somme des carrés au sein des clusters (WCSS), puis nous sélectionnons le nombre de clusters où le changement de WCSS commence à se stabiliser (méthode du coude)
+
+![rep](https://user-images.githubusercontent.com/47771296/102563848-826a8800-40da-11eb-9d47-ba53fbcf22e6.PNG)
+### Affichage de terme de cluster 
+
+![term](https://user-images.githubusercontent.com/47771296/102564240-4a177980-40db-11eb-8134-f62bf94c1122.PNG)
+Exemple : 
+![Exe](https://user-images.githubusercontent.com/47771296/102564485-d6c23780-40db-11eb-9baa-422368aaee8f.PNG)
 
 
 
