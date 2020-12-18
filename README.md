@@ -191,9 +191,33 @@ Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres
 ![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
 ![vv](https://user-images.githubusercontent.com/47771296/102608540-51b23f00-412a-11eb-9177-35ad477e60ce.PNG)
+
 Tout comme les tweets, ils doivent subir un pré-traitement. La fonction fournie utilisée sur les tweets est appliquée sur les sets 
 
 ![oo](https://user-images.githubusercontent.com/47771296/102608733-a950aa80-412a-11eb-8e79-78e6edfd9c29.PNG)
+
+Les doublons sont également supprimés:
+
+![ppp](https://user-images.githubusercontent.com/47771296/102609210-64794380-412b-11eb-9057-4cdadf52faf5.PNG)
+### Scores de similarité Jaccard
+![rrr](https://user-images.githubusercontent.com/47771296/102609396-b0c48380-412b-11eb-91a9-66fe5f632e80.PNG)
+### Trame de données en cluster
+Nous souhaitons créer une base de données contenant le nombre total de tweets par catégorie et par personne. Une base de données 4D avec la colonne d'index remplie d'utilisateurs, et 3 autres colonnes contenant le nombre total de tweets de l'utilisateur dans les classes sociales, culturelles, sanitaires et économiques.
+Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets par nom d'utilisateur et somme des tweets.
+![mmm](https://user-images.githubusercontent.com/47771296/102610545-aa370b80-412d-11eb-84c7-51a382516eae.PNG)
+#### Scores de similarité Jaccard
+![sccc](https://user-images.githubusercontent.com/47771296/102612574-40206580-4131-11eb-8409-9201d5d20e26.PNG)
+#### Matrice des tweets 
+
+![ex](https://user-images.githubusercontent.com/47771296/102613063-1d428100-4132-11eb-806f-687b1bf225c8.PNG)
+
+
+
+
+
+
+
+
 
 
 
