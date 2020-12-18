@@ -164,5 +164,10 @@ Convertir une collection de documents texte en une matrice de nombres de jetons.
 CountVectorizer implémente à la fois la tokenisation et le comptage des occurrences dans une seule classe . 
 fit_transform () est utilisé sur les données d'entraînement afin que nous puissions mettre à l'échelle les données d'entraînement et également apprendre les paramètres de mise à l'échelle de ces données
 ![extraction des feautres](https://user-images.githubusercontent.com/47771296/102561835-f8b8bb80-40d5-11eb-99cd-5603755e91e5.PNG)
+### K-means clustering 
+Le clustering K-Means est un algorithme d'apprentissage automatique non supervisé. Contrairement aux algorithmes traditionnels d'apprentissage automatique supervisé, K-Means tente de classer les données sans avoir d'abord été formé avec des données étiquetées. Une fois l'algorithme exécuté et les groupes définis, toute nouvelle donnée peut être facilement affectée au groupe le plus pertinent.
+WCSS est défini comme la somme de la distance au carré entre chaque membre du cluster et son centre de gravité .
+![kmeans](https://user-images.githubusercontent.com/47771296/102563322-45ea5c80-40d9-11eb-9a4d-30df1e5e83a2.PNG)
+
 
 
