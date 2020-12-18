@@ -148,3 +148,7 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 ![jjj](https://user-images.githubusercontent.com/47771296/102292160-ea876580-3f44-11eb-891b-cebf69c4091d.PNG)
 ###  L'ensemble de données après le nettoyage 
 ![apres nett](https://user-images.githubusercontent.com/47771296/102536097-67cbeb00-40a9-11eb-839d-0794191fb148.PNG)
+les  tweets  aprés les nettoyage sont stokées dans une une autre fichier.CSV 
+![stockage aprés](https://user-images.githubusercontent.com/47771296/102558662-3ca7c280-40ce-11eb-8666-18192848f6e6.PNG)
+
+
