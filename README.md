@@ -204,7 +204,9 @@ Les doublons sont également supprimés:
 ### Trame de données en cluster
 Nous souhaitons créer une base de données contenant le nombre total de tweets par catégorie et par personne. Une base de données 4D avec la colonne d'index remplie d'utilisateurs, et 3 autres colonnes contenant le nombre total de tweets de l'utilisateur dans les classes sociales, culturelles, sanitaires et économiques.
 Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets par nom d'utilisateur et somme des tweets.
+
 ![mmm](https://user-images.githubusercontent.com/47771296/102610545-aa370b80-412d-11eb-84c7-51a382516eae.PNG)
+
 #### Scores de similarité Jaccard
 ![sccc](https://user-images.githubusercontent.com/47771296/102612574-40206580-4131-11eb-8409-9201d5d20e26.PNG)
 #### Matrice des tweets 
@@ -218,7 +220,7 @@ Cela peut être réalisé d'abord en créant un bloc de données contenant les s
 La santé a le plus grand pourcentage. Cela pourrait être le résultat de la pandémie actuelle dont tout le monde parle.
 Les données peuvent être utilisées pour de nombreuses analyses et de belles visualisations, mais l'objectif de l'article est l'analyse de cluster.
 ## Conclusion 
-
+Le traitement du langage naturel est un vaste domaine et il y a tellement plus à faire sur les données pour obtenir des informations plus précises et utiles. Cela vaut la peine d'être exploré 
 
 
 
