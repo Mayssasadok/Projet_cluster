@@ -148,7 +148,14 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 ![jjj](https://user-images.githubusercontent.com/47771296/102292160-ea876580-3f44-11eb-891b-cebf69c4091d.PNG)
 ###  L'ensemble de données après le nettoyage 
 ![apres nett](https://user-images.githubusercontent.com/47771296/102536097-67cbeb00-40a9-11eb-839d-0794191fb148.PNG)
+
 les  tweets  aprés les nettoyage sont stokées dans une une autre fichier.CSV 
+
 ![stockage aprés](https://user-images.githubusercontent.com/47771296/102558662-3ca7c280-40ce-11eb-8666-18192848f6e6.PNG)
 
+### Suppression de hashtag
+Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés. Tous les textes sont convertis en minuscules pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents
+
+![supphas](https://user-images.githubusercontent.com/47771296/102560035-8c3bbd80-40d1-11eb-8c2a-959344530705.PNG)
+![lemm](https://user-images.githubusercontent.com/47771296/102560265-1d129900-40d2-11eb-854f-442193ad057a.PNG)
 
