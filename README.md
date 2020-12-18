@@ -97,6 +97,7 @@ Les données utilisées sont extraites de Twitter à l'aide de Tweepy , une bibl
 ## 6. Stockage de tweet dans un fichier.CSV
 
 ![stockage](https://user-images.githubusercontent.com/47771296/102532199-e58cf800-40a3-11eb-8275-314488a0b1d4.PNG)
+
 affichage des caractéristiques des tweets 
 
 ![caracte](https://user-images.githubusercontent.com/47771296/102532806-ce9ad580-40a4-11eb-8aa9-8b4e30cfb11d.PNG)
@@ -133,7 +134,6 @@ Il sont très fréquents et ralentissent notre travail : nous souhaitons donc le
 
 
 ![stopword](https://user-images.githubusercontent.com/47771296/102288568-0d158080-3f3d-11eb-81c9-8f32072b07ec.PNG)
-
 ![en](https://user-images.githubusercontent.com/47771296/102289024-ffacc600-3f3d-11eb-8898-8a1ac333b94c.PNG)
 
 ### * la stemming
