@@ -190,5 +190,10 @@ Exemple :
 Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
 ![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
+![vv](https://user-images.githubusercontent.com/47771296/102608540-51b23f00-412a-11eb-9177-35ad477e60ce.PNG)
+Tout comme les tweets, ils doivent subir un pré-traitement. La fonction fournie utilisée sur les tweets est appliquée sur les sets 
+
+![oo](https://user-images.githubusercontent.com/47771296/102608733-a950aa80-412a-11eb-8e79-78e6edfd9c29.PNG)
+
 
 
