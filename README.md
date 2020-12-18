@@ -176,7 +176,9 @@ Nous repr√©sentons la relation entre le nombre de clusters et la somme des carr√
 ### Affichage de terme de cluster 
 
 ![term](https://user-images.githubusercontent.com/47771296/102564240-4a177980-40db-11eb-8134-f62bf94c1122.PNG)
+
 Exemple : 
+
 ![Exe](https://user-images.githubusercontent.com/47771296/102564485-d6c23780-40db-11eb-9baa-422368aaee8f.PNG)
 
 
