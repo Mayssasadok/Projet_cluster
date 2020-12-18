@@ -159,3 +159,10 @@ Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, 
 ![supphas](https://user-images.githubusercontent.com/47771296/102560035-8c3bbd80-40d1-11eb-8c2a-959344530705.PNG)
 ![lemm](https://user-images.githubusercontent.com/47771296/102560265-1d129900-40d2-11eb-854f-442193ad057a.PNG)
 
+### Extraction des feautres 
+Convertir une collection de documents texte en une matrice de nombres de jetons.
+CountVectorizer implémente à la fois la tokenisation et le comptage des occurrences dans une seule classe . 
+fit_transform () est utilisé sur les données d'entraînement afin que nous puissions mettre à l'échelle les données d'entraînement et également apprendre les paramètres de mise à l'échelle de ces données
+![extraction des feautres](https://user-images.githubusercontent.com/47771296/102561835-f8b8bb80-40d5-11eb-99cd-5603755e91e5.PNG)
+
+
