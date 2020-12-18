@@ -173,7 +173,7 @@ WCSS est défini comme la somme de la distance au carré entre chaque membre du 
 Nous représentons la relation entre le nombre de clusters et la somme des carrés au sein des clusters (WCSS), puis nous sélectionnons le nombre de clusters où le changement de WCSS commence à se stabiliser (méthode du coude)
 
 ![rep](https://user-images.githubusercontent.com/47771296/102563848-826a8800-40da-11eb-9d47-ba53fbcf22e6.PNG)
-### Affichage de terme de cluster 
+### Affichage des termes de cluster 
 
 ![term](https://user-images.githubusercontent.com/47771296/102564240-4a177980-40db-11eb-8134-f62bf94c1122.PNG)
 
