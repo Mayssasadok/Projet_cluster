@@ -211,8 +211,13 @@ Cela peut être réalisé d'abord en créant un bloc de données contenant les s
 
 ![ex](https://user-images.githubusercontent.com/47771296/102613063-1d428100-4132-11eb-806f-687b1bf225c8.PNG)
 
+#### volumes de tweets dans les différentes catégories:
+![ll](https://user-images.githubusercontent.com/47771296/102614163-0b61dd80-4134-11eb-8102-a6ecd5c8b5ae.PNG)
+![vvv](https://user-images.githubusercontent.com/47771296/102614258-31877d80-4134-11eb-8788-299fd7fa5841.PNG)
 
-
+La santé a le plus grand pourcentage. Cela pourrait être le résultat de la pandémie actuelle dont tout le monde parle.
+Les données peuvent être utilisées pour de nombreuses analyses et de belles visualisations, mais l'objectif de l'article est l'analyse de cluster.
+## Conclusion 
 
 
 
