@@ -164,7 +164,6 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 
 
 
-![jjj](https://user-images.githubusercontent.com/47771296/102292160-ea876580-3f44-11eb-891b-cebf69c4091d.PNG)
 ###  L'ensemble de données après le nettoyage 
 ![apres nett](https://user-images.githubusercontent.com/47771296/102536097-67cbeb00-40a9-11eb-839d-0794191fb148.PNG)
 
@@ -213,10 +212,10 @@ Nous représentons la relation entre le nombre de clusters et la somme des carr�
  
 ![kk](https://user-images.githubusercontent.com/47771296/102607324-67bf0000-4128-11eb-8fdb-9599a506fe28.PNG)
 
-#### Ensembles de mots
+## Ensembles de mots: 
 
 
-##  --> Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
+####  --> Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
 
 ![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
