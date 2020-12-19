@@ -112,11 +112,12 @@ Tokenisation, lemmatisation et suppression des mots vides
 Les mots vides sont des mots couramment utilisés dont la présence dans une phrase a moins de poids que d'autres mots. Ils incluent des mots comme «et», «ou», «a» et.c.
 La tokenisation est le processus de division d'une chaîne en une liste de jetons. Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des tokenizers appropriés.
 
-![token](https://user-images.githubusercontent.com/47771296/102285332-61693200-3f36-11eb-9273-7e69ef8a64fb.PNG)
+![token](https://user-images.githubusercontent.com/47771296/102677130-36cee180-41a1-11eb-96ca-a30b9315540b.PNG)
 
 La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».
 Les langues utilisées dans les tweets sont principalement l'anglais et le swahili. Ce dernier n'a aucun support donc nous ne travaillerons qu'avec le premier. Cela rend l'analyse paralysée d'une manière étant donné que les textes swahili seront ignorés.
 
+![lemmm](https://user-images.githubusercontent.com/47771296/102677212-b52b8380-41a1-11eb-84b8-5a69cad3a698.PNG)
 
 ###  *Suppression de ponctuation 
 
@@ -125,7 +126,7 @@ Utilisation de la variable punctuationdu package string. Avant d'utiliser, vous 
 string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement .
 
 ![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
-##### -> Résultat 
+### -> Résultat 
 
 ![supresion](https://user-images.githubusercontent.com/47771296/102676622-b5764f80-419e-11eb-80e3-edbcd628bac2.PNG)
 
@@ -141,6 +142,9 @@ Il sont très fréquents et ralentissent notre travail : nous souhaitons donc le
 
 
 ![stopword](https://user-images.githubusercontent.com/47771296/102288568-0d158080-3f3d-11eb-81c9-8f32072b07ec.PNG)
+
+le mots les mots le plus courants dans la langue anglaise 
+
 ![en](https://user-images.githubusercontent.com/47771296/102289024-ffacc600-3f3d-11eb-8898-8a1ac333b94c.PNG)
 
 ### * la stemming
@@ -148,7 +152,8 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 
 
 ![nn](https://user-images.githubusercontent.com/47771296/102289408-e6584980-3f3e-11eb-98c9-891ddfc43244.PNG)
-![hh](https://user-images.githubusercontent.com/47771296/102291466-74363380-3f43-11eb-86b2-59ae0445f0fc.PNG)
+## Résultat : 
+![stemming](https://user-images.githubusercontent.com/47771296/102677074-e8b9de00-41a0-11eb-9ed9-d55359bd0695.PNG)
 
 
 
