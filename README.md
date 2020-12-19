@@ -260,6 +260,11 @@ Les données peuvent être utilisées pour de nombreuses analyses et de belles v
 ## Conclusion 
 Le traitement du langage naturel est un vaste domaine et il y a tellement plus à faire sur les données pour obtenir des informations plus précises et utiles. 
 
+*******************************************************************************************************************************************************************************
+## Références : 
+https://medium.com/swlh/tweets-classification-and-clustering-in-python-b107be1ba7c7
+https://github.com/RodolfoFerro/pandas_twitter/blob/master/01-extracting-data.md
+https://imu.universite-lyon.fr/wp-content/uploads/2015/07/me%CC%81moire-Ahmed-REMADNA-1.pdf
 
 
 
