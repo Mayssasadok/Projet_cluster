@@ -23,11 +23,11 @@ le projet portera sur la classification selon plusieurs étapes .
    
  ### Objectifs :
  
-• Maitriser l’API de twitter pour l’extraction des tweets
-• Maitriser la partie NLP (natural language processing) avec NLTK en Python
-• Appliquer les principes de nettoyage des données
-• Classer les tweets : regrouper ensemble les tweets qui sont similaires. C’est une étape qui peut
-  être considérée comme une étape 
+##### • Maitriser l’API de twitter pour l’extraction des tweets
+##### • Maitriser la partie NLP (natural language processing) avec NLTK en Python
+##### • Appliquer les principes de nettoyage des données
+##### • Classer les tweets : regrouper ensemble les tweets qui sont similaires. C’est une étape qui peut
+ #####  être considérée comme une étape 
   # I. Partie théorique 
  ##  1. Tweeter
 Twitter est un réseau social populaire où les utilisateurs partagent des messages appelés tweets. Twitter nous permet d'exploiter les données de tout utilisateur en utilisant l'API Twitter ou Tweepy
@@ -46,10 +46,10 @@ Exemple de cluster : kameans
       
 ![jup](https://user-images.githubusercontent.com/47771296/102266998-8bf8c200-3f19-11eb-9cc7-bfc34dbad880.PNG)
  ### * Environnement matériel  :
--> Ordinateur portable 
--> Système d’exploitation : Windows 10 (64Bits)
--> Processeur :Intel Core i3
--> Mémoire Vive :4 GB
+#####  -> Ordinateur portable 
+ ##### -> Système d’exploitation : Windows 10 (64Bits)
+#####  -> Processeur :Intel Core i3
+#####  -> Mémoire Vive :4 GB
 
 ## 2. création d'un compte tweeterdevelopper 
 ### * Création de compte 
@@ -76,10 +76,10 @@ La bibliothèque SpaCy permet d'effectuer les opérations d'analyse suivantes3 s
 ## 4. Authentification et Affichage des tweets 
 À partir de compte tweeter develloper qu'ona  créer, ona enregistrer les informations suivantes dans un script appelé credentials.py:
 
-Clé consommateur (clé API)
-Secret consommateur (secret API)
-Jeton d'accès
-Access Token Secret
+* Clé consommateur (clé API)
+* Secret consommateur (secret API)
+* Jeton d'accès
+* Access Token Secret
 
 Les données seront des tweets extraits de l'utilisateur. La première chose à faire est d'obtenir la clé du consommateur, le secret du consommateur, la clé d'accès et le secret d'accès du développeur Twitter facilement disponibles pour chaque utilisateur.
 Ces clés aideront l'API pour l'authentification.
@@ -122,11 +122,13 @@ Les langues utilisées dans les tweets sont principalement l'anglais et le swahi
 
 Utilisation de la variable punctuationdu package string. Avant d'utiliser, vous devez importer le package en utilisant la ligne import stringau début du fichier.
 
-string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement . 
+string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement .
+
 ![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
 
 ![resu](https://user-images.githubusercontent.com/47771296/102287482-d76f9800-3f3a-11eb-8b89-ade350b73482.PNG)
-### * La bibliothéque NLTK 
+### * La bibliothéque NLTK
+
 Il existe dans la librairie NLTK une liste par défaut des stopwords dans plusieurs langues, notamment le français.
 Mais nous allons faire ceci d'une autre manière : on va supprimer les mots les plus fréquents du corpus et considérer qu'il font partie du vocabulaire commun et n'apportent aucune information. 
 Ensuite on supprimera aussi les stopwords fournis par NLTK.
@@ -166,16 +168,21 @@ Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, 
 Convertir une collection de documents texte en une matrice de nombres de jetons.
 CountVectorizer implémente à la fois la tokenisation et le comptage des occurrences dans une seule classe . 
 fit_transform () est utilisé sur les données d'entraînement afin que nous puissions mettre à l'échelle les données d'entraînement et également apprendre les paramètres de mise à l'échelle de ces données
+
 ![extraction des feautres](https://user-images.githubusercontent.com/47771296/102561835-f8b8bb80-40d5-11eb-99cd-5603755e91e5.PNG)
+
 ### K-means clustering 
+
 Le clustering K-Means est un algorithme d'apprentissage automatique non supervisé. Contrairement aux algorithmes traditionnels d'apprentissage automatique supervisé, K-Means tente de classer les données sans avoir d'abord été formé avec des données étiquetées. Une fois l'algorithme exécuté et les groupes définis, toute nouvelle donnée peut être facilement affectée au groupe le plus pertinent.
 WCSS est défini comme la somme de la distance au carré entre chaque membre du cluster et son centre de gravité .
+
 ![kmeans](https://user-images.githubusercontent.com/47771296/102563322-45ea5c80-40d9-11eb-9a4d-30df1e5e83a2.PNG)
 ![gg](https://user-images.githubusercontent.com/47771296/102563684-1f78f100-40da-11eb-9755-19a1e7636ab6.PNG)
 
 Nous représentons la relation entre le nombre de clusters et la somme des carrés au sein des clusters (WCSS), puis nous sélectionnons le nombre de clusters où le changement de WCSS commence à se stabiliser (méthode du coude)
 
 ![rep](https://user-images.githubusercontent.com/47771296/102563848-826a8800-40da-11eb-9d47-ba53fbcf22e6.PNG)
+
 ### Affichage des termes par  cluster 
 
 ![term](https://user-images.githubusercontent.com/47771296/102564240-4a177980-40db-11eb-8134-f62bf94c1122.PNG)
@@ -183,14 +190,20 @@ Nous représentons la relation entre le nombre de clusters et la somme des carr�
 Exemple : 
 
 ![Exe](https://user-images.githubusercontent.com/47771296/102564485-d6c23780-40db-11eb-9baa-422368aaee8f.PNG)
+
 ### Affichage des tweets de chaque cluster : 
-![ff](https://user-images.githubusercontent.com/47771296/102607194-2595be80-4128-11eb-9ab5-fb6c593be93e.PNG)  
+
+![ff](https://user-images.githubusercontent.com/47771296/102607194-2595be80-4128-11eb-9ab5-fb6c593be93e.PNG) 
+
  #### resultats :
  
 ![kk](https://user-images.githubusercontent.com/47771296/102607324-67bf0000-4128-11eb-8fdb-9599a506fe28.PNG)
+
 #### Ensembles de mots
 
+
 Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
+
 ![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
 ![vv](https://user-images.githubusercontent.com/47771296/102608540-51b23f00-412a-11eb-9177-35ad477e60ce.PNG)
@@ -202,8 +215,11 @@ Tout comme les tweets, ils doivent subir un pré-traitement. La fonction fournie
 Les doublons sont également supprimés:
 
 ![ppp](https://user-images.githubusercontent.com/47771296/102609210-64794380-412b-11eb-9057-4cdadf52faf5.PNG)
+
 ### Scores de similarité Jaccard
+
 ![rrr](https://user-images.githubusercontent.com/47771296/102609396-b0c48380-412b-11eb-91a9-66fe5f632e80.PNG)
+
 ### Trame de données en cluster
 Nous souhaitons créer une base de données contenant le nombre total de tweets par catégorie et par personne. Une base de données 4D avec la colonne d'index remplie d'utilisateurs, et 3 autres colonnes contenant le nombre total de tweets de l'utilisateur dans les classes sociales, culturelles, sanitaires et économiques.
 Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets par nom d'utilisateur et somme des tweets.
@@ -211,22 +227,25 @@ Cela peut être réalisé d'abord en créant un bloc de données contenant les s
 ![mmm](https://user-images.githubusercontent.com/47771296/102610545-aa370b80-412d-11eb-84c7-51a382516eae.PNG)
 
 #### Scores de similarité Jaccard
+
 ![sccc](https://user-images.githubusercontent.com/47771296/102612574-40206580-4131-11eb-8409-9201d5d20e26.PNG)
+
 #### Matrice des tweets 
 
 ![ex](https://user-images.githubusercontent.com/47771296/102613063-1d428100-4132-11eb-806f-687b1bf225c8.PNG)
 
 #### volumes de tweets dans les différentes catégories:
+
 ![ll](https://user-images.githubusercontent.com/47771296/102614163-0b61dd80-4134-11eb-8102-a6ecd5c8b5ae.PNG)
 ![vvv](https://user-images.githubusercontent.com/47771296/102614258-31877d80-4134-11eb-8788-299fd7fa5841.PNG)
 
+## Intérprétation 
+
 La santé a le plus grand pourcentage. Cela pourrait être le résultat de la pandémie actuelle dont tout le monde parle.
 Les données peuvent être utilisées pour de nombreuses analyses et de belles visualisations, mais l'objectif de l'article est l'analyse de cluster.
+
 ## Conclusion 
-Le traitement du langage naturel est un vaste domaine et il y a tellement plus à faire sur les données pour obtenir des informations plus précises et utiles. Cela vaut la peine d'être exploré 
-
-
-
+Le traitement du langage naturel est un vaste domaine et il y a tellement plus à faire sur les données pour obtenir des informations plus précises et utiles. 
 
 
 
