@@ -125,8 +125,10 @@ Utilisation de la variable punctuationdu package string. Avant d'utiliser, vous 
 string.punctuationcontient tous les caractères de ponctuation pour ne pas avoir à les définir à chaque fois manuellement .
 
 ![remove](https://user-images.githubusercontent.com/47771296/102283800-5eb90d80-3f33-11eb-985d-e8c1a58673ee.PNG)
+##### -> Résultat 
 
-![resu](https://user-images.githubusercontent.com/47771296/102287482-d76f9800-3f3a-11eb-8b89-ade350b73482.PNG)
+![supresion](https://user-images.githubusercontent.com/47771296/102676622-b5764f80-419e-11eb-80e3-edbcd628bac2.PNG)
+
 ### * La bibliothéque NLTK
 
 Il existe dans la librairie NLTK une liste par défaut des stopwords dans plusieurs langues, notamment le français.
@@ -154,7 +156,7 @@ La stemming est une sorte de normalisation des mots. La normalisation est une te
 ###  L'ensemble de données après le nettoyage 
 ![apres nett](https://user-images.githubusercontent.com/47771296/102536097-67cbeb00-40a9-11eb-839d-0794191fb148.PNG)
 
-les  tweets  aprés les nettoyage sont stokées dans une une autre fichier.CSV 
+##### --> les  tweets  aprés les nettoyage sont stokées dans une une autre fichier.CSV 
 
 ![stockage aprés](https://user-images.githubusercontent.com/47771296/102558662-3ca7c280-40ce-11eb-8666-18192848f6e6.PNG)
 
@@ -187,7 +189,7 @@ Nous représentons la relation entre le nombre de clusters et la somme des carr�
 
 ![term](https://user-images.githubusercontent.com/47771296/102564240-4a177980-40db-11eb-8134-f62bf94c1122.PNG)
 
-Exemple : 
+##### Exemple : 
 
 ![Exe](https://user-images.githubusercontent.com/47771296/102564485-d6c23780-40db-11eb-9baa-422368aaee8f.PNG)
 
@@ -202,7 +204,7 @@ Exemple :
 #### Ensembles de mots
 
 
-Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
+##### --> Le bloc ci-dessous représente des mots liés à l'économie. Il existe 3 autres ensembles de ce type ( social_related_words , health_related_words et culture_related_words ) pour les 3 groupes restants : 
 
 ![cc](https://user-images.githubusercontent.com/47771296/102608088-9f7a7780-4129-11eb-9188-795fd0b0c465.PNG)
 
